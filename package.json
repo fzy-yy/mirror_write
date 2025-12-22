@@ -1,0 +1,44 @@
+{
+  "name": "mirror_write",
+  "private": true,
+  "author": {
+    "name": "fzyyy"
+  },
+  "description": "A split-screen static web application for practicing mirror writing with image backgrounds and customizable tools.",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fzy-yy/mirror_write.git"
+  },
+  "keywords": [
+    "mirror_write",
+    "mirror",
+    "write",
+    "canvas",
+    "practice",
+    "dental",
+    "oral"
+  ],
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "10.1.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "cspell": "^9.4.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0"
+  }
+}

@@ -24,7 +24,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:docker": "docker build -t mirror-write ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
